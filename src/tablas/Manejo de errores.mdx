@@ -1,0 +1,36 @@
+---
+name: Manejo de errores
+menu: Components
+---
+
+# Errores en las peticiones HTTP
+
+```sh
+Los errores varían en función del `status` de la respuesta de una petición Http al servidor.
+Los siguientes estados corresponden a los diferentes escenarios para estos errores.
+
+response = {
+    "200": {
+        msj: 'Solicitud aceptada'
+    },
+    "400": {
+        msj: 'Solicitud incorrecta'
+    },
+    "401": {
+        msj: 'Solicitud no autorizada'
+    },
+    "403": {
+        msj: 'Solicitud prohibida'
+    },
+    "404": {
+        msj: 'Solicitud no encontrado'
+    },
+    "405": {
+        msj: 'Metodo no permitido'
+    },
+    "500": {
+        msj: 'Error interno en el servidor'
+    },
+}
+
+```

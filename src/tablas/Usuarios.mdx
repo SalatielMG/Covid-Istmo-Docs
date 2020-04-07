@@ -1,0 +1,94 @@
+---
+name: Usuarios
+menu: Components
+---
+
+import { Playground, Props } from 'docz'
+import { Usuarios, typeUsers, genderUsers } from './Usuarios'
+
+# Usuarios
+
+## Propiedades
+
+<Props of={Usuarios} />
+
+## Tipos de usuarios (`type`)
+
+<Props of={typeUsers} />
+
+## Genero Usuario (`gender`)
+
+<Props of={genderUsers} />
+
+# ENDPOINTS
+
+## Login usuario
+
+```sh
+method = get
+
+endPoint = /login
+
+parameters = {
+    email: string,
+    password: string
+}
+
+response = {
+    "200": {
+        success: true | false,
+        result:
+        {
+            token: string,
+            id: number,
+            name: string,
+            lastName: string,
+            email: string,
+            gender: number,
+            type: number,
+            state: {
+                cve_ent,
+                nom_ent,
+                nom_abr,
+            },
+            municipality: {
+                cve_ent,
+                cve_mun,
+                cve_cab,
+                nom_cab,
+            },
+            locality: {
+                cve_mun,
+                cve_loc,
+                nom_loc,
+            },
+        }
+    }
+}
+
+```
+
+## Registro usuario (Manual)
+
+```sh
+method = post
+
+endPoint = /register
+
+parameters = {
+    name: string,
+    lastName: string,
+    email: string,
+    sexo: number,
+    type: number,
+    state: number,
+    municipality: number,
+    locality: number,
+}
+
+response = {
+    "200": {
+        success: true | false
+    }
+}
+```

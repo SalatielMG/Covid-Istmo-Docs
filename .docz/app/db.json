@@ -1,0 +1,589 @@
+{
+  "config": {
+    "title": "Covid Istmo",
+    "description": "My awesome app using docz",
+    "menu": [],
+    "version": "2.0.0",
+    "repository": null,
+    "native": false,
+    "themeConfig": {},
+    "separator": "-"
+  },
+  "entries": [
+    {
+      "key": "README.md",
+      "value": {
+        "id": "04c6e90faac2675aa89e2176d2eec7d8",
+        "filepath": "README.md",
+        "fullpath": "C:\\Node\\Covid-Itsmo\\Resource\\covid-istmo\\README.md",
+        "link": "",
+        "hidden": false,
+        "slug": "readme",
+        "route": "/readme",
+        "name": "Readme",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "basic-docz-example",
+            "depth": 1,
+            "value": "Basic Docz example"
+          },
+          {
+            "slug": "using-create-docz-app",
+            "depth": 2,
+            "value": "Using  create-docz-app"
+          },
+          {
+            "slug": "download-manually",
+            "depth": 2,
+            "value": "Download manually"
+          },
+          {
+            "slug": "setup",
+            "depth": 2,
+            "value": "Setup"
+          },
+          {
+            "slug": "run",
+            "depth": 2,
+            "value": "Run"
+          },
+          {
+            "slug": "build",
+            "depth": 2,
+            "value": "Build"
+          },
+          {
+            "slug": "serve-built-app",
+            "depth": 2,
+            "value": "Serve built app"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/index.mdx",
+      "value": {
+        "name": "Getting Started",
+        "route": "/",
+        "id": "6576455a124f9aaefd860597f03a8fe4",
+        "filepath": "src/index.mdx",
+        "fullpath": "C:\\Node\\Covid-Itsmo\\Resource\\covid-istmo\\src\\index.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-index",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "covid-istmo",
+            "depth": 1,
+            "value": "Covid Istmo"
+          },
+          {
+            "slug": "cómo-se-propaga",
+            "depth": 3,
+            "value": "CÓMO SE PROPAGA"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/tablas/Manejo de errores.mdx",
+      "value": {
+        "name": "Manejo de errores",
+        "menu": "Components",
+        "id": "006b57c315c6b84c1355936dccc30fd7",
+        "filepath": "src/tablas/Manejo de errores.mdx",
+        "fullpath": "C:\\Node\\Covid-Itsmo\\Resource\\covid-istmo\\src\\tablas\\Manejo de errores.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-tablas-manejo-de-errores",
+        "route": "/src-tablas-manejo-de-errores",
+        "headings": [
+          {
+            "slug": "errores-en-las-peticiones-http",
+            "depth": 1,
+            "value": "Errores en las peticiones HTTP"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/tablas/Preguntas.mdx",
+      "value": {
+        "name": "Preguntas",
+        "menu": "Components",
+        "id": "3f60a435fd9f7f7cb65f47eea83f5488",
+        "filepath": "src/tablas/Preguntas.mdx",
+        "fullpath": "C:\\Node\\Covid-Itsmo\\Resource\\covid-istmo\\src\\tablas\\Preguntas.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-tablas-preguntas",
+        "route": "/src-tablas-preguntas",
+        "headings": [
+          {
+            "slug": "preguntas",
+            "depth": 1,
+            "value": "Preguntas"
+          },
+          {
+            "slug": "propiedades",
+            "depth": 2,
+            "value": "Propiedades"
+          },
+          {
+            "slug": "tipos-de-preguntas-typequestion",
+            "depth": 2,
+            "value": "Tipos de preguntas ( typeQuestion )"
+          },
+          {
+            "slug": "endpoints",
+            "depth": 1,
+            "value": "ENDPOINTS"
+          },
+          {
+            "slug": "obtener-todas-la-preguntas",
+            "depth": 2,
+            "value": "Obtener todas la preguntas"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/tablas/Respuestas.mdx",
+      "value": {
+        "id": "fee10787592ef11415183a953b7a92e6",
+        "filepath": "src/tablas/Respuestas.mdx",
+        "fullpath": "C:\\Node\\Covid-Itsmo\\Resource\\covid-istmo\\src\\tablas\\Respuestas.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-tablas-respuestas",
+        "route": "/src-tablas-respuestas",
+        "name": "Respuestas",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "respuestas",
+            "depth": 1,
+            "value": "Respuestas"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/tablas/Usuarios.mdx",
+      "value": {
+        "name": "Usuarios",
+        "menu": "Components",
+        "id": "b35bf5e947651e9e31c41173e07ab337",
+        "filepath": "src/tablas/Usuarios.mdx",
+        "fullpath": "C:\\Node\\Covid-Itsmo\\Resource\\covid-istmo\\src\\tablas\\Usuarios.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-tablas-usuarios",
+        "route": "/src-tablas-usuarios",
+        "headings": [
+          {
+            "slug": "usuarios",
+            "depth": 1,
+            "value": "Usuarios"
+          },
+          {
+            "slug": "propiedades",
+            "depth": 2,
+            "value": "Propiedades"
+          },
+          {
+            "slug": "tipos-de-usuarios-type",
+            "depth": 2,
+            "value": "Tipos de usuarios ( type )"
+          },
+          {
+            "slug": "genero-usuario-gender",
+            "depth": 2,
+            "value": "Genero Usuario ( gender )"
+          },
+          {
+            "slug": "endpoints",
+            "depth": 1,
+            "value": "ENDPOINTS"
+          },
+          {
+            "slug": "login-usuario",
+            "depth": 2,
+            "value": "Login usuario"
+          },
+          {
+            "slug": "registro-usuario-manual",
+            "depth": 2,
+            "value": "Registro usuario (Manual)"
+          }
+        ]
+      }
+    }
+  ],
+  "props": [
+    {
+      "key": "src/tablas/Preguntas.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Preguntas",
+          "methods": [],
+          "actualName": "Preguntas",
+          "props": {
+            "id": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'number'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": "This is a pretty good description for this prop."
+            },
+            "question": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'string'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            },
+            "typeQuestion": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'number'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            },
+            "isSymptom": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'boolean'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            },
+            "value": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'number'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            },
+            "question_id": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'object<Pregunta> | null'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            }
+          }
+        },
+        {
+          "description": "",
+          "displayName": "typeQuestions",
+          "methods": [],
+          "actualName": "typeQuestions",
+          "props": {
+            "1": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'Opción Multiple'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": "This is a pretty good description for this prop."
+            },
+            "2": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'Verdadero o Falso'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            },
+            "3": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'Preguntas Múltiples'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "src/tablas/Usuarios.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Usuarios",
+          "methods": [],
+          "actualName": "Usuarios",
+          "props": {
+            "id": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'number'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": "This is a pretty good description for this prop."
+            },
+            "name": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'string'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            },
+            "lastName": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'string'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            },
+            "email": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'string'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            },
+            "gender": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'number'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            },
+            "type": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'number'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            },
+            "state": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'number'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            },
+            "municipality": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'number'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            },
+            "locality": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'number'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            },
+            "level_id": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'number'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            }
+          }
+        },
+        {
+          "description": "",
+          "displayName": "typeUsers",
+          "methods": [],
+          "actualName": "typeUsers",
+          "props": {
+            "1": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'Super Administrador'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            },
+            "2": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'Administrador'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            },
+            "3": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'Paciente'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            }
+          }
+        },
+        {
+          "description": "",
+          "displayName": "genderUsers",
+          "methods": [],
+          "actualName": "genderUsers",
+          "props": {
+            "1": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'Masculino'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            },
+            "2": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'Femenino'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": ""
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

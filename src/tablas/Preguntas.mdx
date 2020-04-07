@@ -1,0 +1,52 @@
+---
+name: Preguntas
+menu: Components
+---
+
+import { Playground, Props } from 'docz'
+import { Preguntas, typeQuestions } from './Preguntas'
+
+# Preguntas
+
+## Propiedades
+
+<Props of={Preguntas} />
+
+## Tipos de preguntas (`typeQuestion`)
+
+<Props of={typeQuestions} />
+
+# ENDPOINTS
+
+## Obtener todas la preguntas
+
+```sh
+method = get
+
+endPoint = /question
+
+headers = {
+    token: string
+}
+
+response = {
+    "200": {
+        success: true | false,
+        results: [
+            {
+                id: number,
+                question: string,
+                typeQuestion: number,
+                isSymptom: boolean,
+                value: number,
+                question_id: object<Pregunta>,
+            }
+            ...
+        ]
+    }
+    "401": {
+        msj: 'Solicitud no autorizado'
+    },
+}
+
+```
